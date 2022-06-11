@@ -68,3 +68,67 @@ header{
 }
 
 /* Nav Bar & Links */
+
+
+
+/* Main */
+
+
+main{
+    background-image: url(/imagenes/main.jpg);
+    height: 100vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Hero */
+
+.hero{
+    background-color: #21ce77;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-text h2{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 6px 6px 1px white;
+}
+
+.hero-text p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 1px white;
+    padding: 1rem;
+}
+
+
+.hero-btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.hero-btn:hover{
+    transition: .7s;
+    color: black;
+    background-color: white;
+    letter-spacing: .1rem;
+    box-shadow: 5px 5px 1px black;
+}
