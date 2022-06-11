@@ -132,3 +132,64 @@ main{
     letter-spacing: .1rem;
     box-shadow: 5px 5px 1px black;
 }
+
+
+
+/* Hero */
+
+
+/* Footer */
+
+footer{
+    background: black;
+    height: auto;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem ;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials li:hover{
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
+
+.socials a{ 
+    color: #21ce77;
+    text-transform: uppercase;
+}
+
+.socials a:hover{
+    color: #116d3f;
+}
+
+.footer-bottom p{
+    font-size: .8rem;
+    text-transform: uppercase;
+}
