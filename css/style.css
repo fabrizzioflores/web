@@ -234,3 +234,77 @@ footer{
     color: #116d3f;
     text-transform: capitalize;
 }
+
+
+
+
+/*Formulario*/
+
+.formulario{
+    background-image:url(/imagenes/pagina-4.jpg) ;
+    height: 100vh;
+    color: white;
+    
+
+}
+
+.singup-box{
+    padding-top: 6rem;
+    width: 360px;
+    height: 670px;
+    margin:auto ;
+    background-color:black;
+}
+
+.singup-box h2{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    background-color: white;
+    width: 50%;
+    color: #000;
+    text-align: center;
+    padding: .5rem;
+    margin-left: 5.7rem;
+}
+
+
+.singup-box h4{
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.singup-box form{
+    width: 300px;
+    margin-left: 28px;
+    text-transform: uppercase;
+}
+
+.singup-box form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.singup-box form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+
+.singup-box form input[type="button"]{
+    width: 300px;
+    height: 32px;
+    margin-top: 20px;
+    border: none;
+    background-color: #21ce77;
+    cursor: pointer;
+}
+
+.singup-box form input[type="button"]:hover{
+    transition: 0.5s ease-out;
+    letter-spacing: .1rem;
+}
