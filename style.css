@@ -75,7 +75,7 @@ header{
 
 
 main{
-    background-image: url(/imagenes/main.jpg);
+    background-image: url(/main.jpg);
     height: 100vh;
     background-size: cover ;
     background-repeat: no-repeat;
